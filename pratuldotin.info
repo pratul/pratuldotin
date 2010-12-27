@@ -1,0 +1,14 @@
+; Copyright 2010 (c) Pratul Kalia
+name = Articulation
+description = A concise and lucid design.
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = style.css
+
+regions[rsidebar] = Sidebar
+regions[rfooter]  = Footer
+
+features[] = name
+features[] = slogan
+features[] = search

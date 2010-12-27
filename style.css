@@ -1,0 +1,179 @@
+/* Copyright 2010 (c) Pratul Kalia */
+
+/**
+ * Mostly global stuff
+ */
+#chhota {
+  margin: 3% 10% 10% 10%;
+  font-family: Helvetica, sans;
+}
+a { color: #0066cc;}
+/*a:hover { 
+  background-color: #0066cc; 
+  color: #fff;
+  padding: 0 1px 0 1px;
+}
+*/
+pre {
+  font-family: Monaco, Consolas, monospace;
+  font-size: 12px;
+}
+
+/**
+ * Site name and slogan
+ */
+#headerbutinfooter {
+  margin: 40px 0;
+  text-align: right;
+}
+#sitename, #siteslogan {
+  font-family: Arial, sans;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  color: #333;
+}
+#sitename {
+  font-size: 6em;
+}
+#siteslogan {
+  font-size: 2em;
+}
+#headerbutinfooter a {
+  text-decoration: none;
+}
+
+/**
+ * Actual page display
+ */
+.ntitle {
+  border-left: 3px solid #999;
+  border-bottom: 3px solid #999;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 100;
+  letter-spacing: -2px;
+  padding: 6px 0 2px 6px;
+}
+.ntitle a {
+  text-decoration: none;
+  color: #444;
+}
+.nodesubmitinfo {
+  border-left: 2px solid #999;
+  border-bottom: 2px solid #999;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 3px 0 3px 6px;
+  margin-top: 4px;
+  color: #444;
+  font-size: 18px;
+  font-weight: 100;
+}
+.ntitle:hover {
+  border-left: 3px solid #ff6600;
+  border-bottom: 3px solid #339900;
+  text-decoration: underline;
+}
+.ntitle:hover a {color: #000;}
+.nodesubmitinfo:hover {
+  border-left: 2px solid #ff6600;
+  border-bottom: 2px solid #339900;
+  color: #000;
+}
+.nodecontent {
+  font-family: Helvetica, Arial, serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.nodecontent em { 
+/*  background-color: #ffff99; */
+  font-family: Georgia;
+  font-size: 14px;
+}
+.bottom-links {
+  border-left: 1px solid #999;
+  border-top: 1px solid #999;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 2px 0 2px 0;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+}
+ul.links li.blog_usernames_blog {display:none;}
+div.links { margin-top: 10px;}
+
+.cutmehere {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+/**
+ * Pager
+ */
+div.item-list {
+  border: 1px solid #D4D4D4;
+  margin: 0 50px;
+}
+.item-list .pager li {
+  padding: 2px;
+  font-family: Verdana, Georgia, sans-serif;
+  font-size: 13px;
+  
+}
+.pager li a {
+  text-decoration: none;
+}
+.pager li a:hover { text-decoration: underline; }
+li.pager-current { background-color: #ffff00;}
+.item-list ul { margin: 0; }
+
+/**
+ * Footer
+ */
+#footer {
+  text-align: center;
+  font-size: 75%;
+  margin: 10px 0 10px 0;
+}
+#footer a {
+  color: #000;
+}
+
+/**
+ * Primary and Secondary links
+ */
+#priseclinx {
+  margin-bottom: 20px;
+}
+ul.primary-links, ul.secondary-links {
+  text-align: right;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+ul.primary-links {
+  margin-bottom: 6px;
+}
+ul.secondary-links {
+  font-size: 16px;
+}
+ul.primary-links a {
+  color: #000;
+}
+ul.secondary-links a {
+  color: #444;
+}
+ul.primary-links a:hover {
+  color: #0066cc;
+}
+ul.secondary-links a:hover {
+  color: #0055aa;
+}
+#feedyurself {
+  text-align: right;
+  margin: 6px 8px 0 0;
+}
