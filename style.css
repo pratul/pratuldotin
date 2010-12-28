@@ -12,6 +12,9 @@ pre {
   font-family: Monaco, Consolas, monospace;
   font-size: 12px;
 }
+body {
+  background: #fff url('pratuldotin-edge.png') no-repeat fixed top left;
+}
 
 /**
  * Site name and slogan
@@ -171,3 +174,16 @@ ul.secondary-links a:hover {
   text-align: right;
   margin: 8px 8px 0 0;
 }
+
+/**
+ * Comments display
+ */
+#comments {
+  border-left: 1px solid #999;
+}
+
+
+
+
+
+

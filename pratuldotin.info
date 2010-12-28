@@ -1,5 +1,5 @@
 ; Copyright 2010 (c) Pratul Kalia
-name = Articulation
+name = pratuldotin
 description = A concise and lucid design.
 core = 6.x
 engine = phptemplate
