@@ -5,15 +5,9 @@
  */
 #chhota {
   margin: 3% 10% 10% 10%;
-  font-family: Helvetica, sans;
+  font-family: Helvetica, Arial, sans;
 }
-a { color: #0066cc;}
-/*a:hover { 
-  background-color: #0066cc; 
-  color: #fff;
-  padding: 0 1px 0 1px;
-}
-*/
+a { color: #0066cc; }
 pre {
   font-family: Monaco, Consolas, monospace;
   font-size: 12px;
@@ -23,21 +17,23 @@ pre {
  * Site name and slogan
  */
 #headerbutinfooter {
-  margin: 40px 0;
+  margin: 50px 0 20px 0;
   text-align: right;
 }
 #sitename, #siteslogan {
-  font-family: Arial, sans;
+  font-family: Helvetica, Arial, sans;
   font-weight: 700;
   letter-spacing: -0.05em;
   line-height: 1;
   color: #333;
 }
 #sitename {
-  font-size: 6em;
+  font-size: 5em;
 }
 #siteslogan {
-  font-size: 2em;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 1.8em;
+  letter-spacing: 0em;
 }
 #headerbutinfooter a {
   text-decoration: none;
@@ -84,14 +80,12 @@ pre {
   color: #000;
 }
 .nodecontent {
-  font-family: Helvetica, Arial, serif;
+  font-family: "Helvetica Neue", Candara, Arial, serif;
   font-size: 14px;
   line-height: 1.5;
 }
 .nodecontent em { 
-/*  background-color: #ffff99; */
-  font-family: Georgia;
-  font-size: 14px;
+  background-color: #ffffaa; 
 }
 .bottom-links {
   border-left: 1px solid #999;
@@ -175,5 +169,5 @@ ul.secondary-links a:hover {
 }
 #feedyurself {
   text-align: right;
-  margin: 6px 8px 0 0;
+  margin: 8px 8px 0 0;
 }
