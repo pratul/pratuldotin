@@ -16,8 +16,4 @@
       <div class="links bottom-links"><?php print $links; ?></div>
     <?php endif; ?>
   </div>
-
-  <div class="cutmehere">
-    ———————————— ✄————————————
-  </div>
 </div>
