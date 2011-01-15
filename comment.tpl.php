@@ -26,11 +26,11 @@ if ($comment->uid == 1) {
   $u = " self";
 }
 ?>
-<div class="comment<?php print ($comment->new) ? ' comment-new' : ''; print ' '. $status; print ' '. $zebra;?><?php print $u ?>">
+<div id="comment-<?php print $comment->cid ?>" class="comment<?php print ($comment->new) ? ' comment-new' : ''; print ' '. $status; print ' '. $zebra;?><?php print $u ?>">
 
     <div class="clear-block">
     <?php if ($submitted): ?>
-      <div class="submitted">On <?php print $date ?>, 
+      <div class="submitted">On <a href=""><?php print $date ?></a>, 
         <?php if ($comment->homepage): ?>
           <a href="<?php print $comment->homepage ?>">
         <?php endif; ?>
