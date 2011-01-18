@@ -167,6 +167,10 @@ li.pager-current { background-color: #ffff00;}
 #footer a {
   color: #999;
 }
+#gitversion {
+  font-size: 10px;
+  margin-top: 5px;
+}
 
 /**
  * Primary and Secondary links

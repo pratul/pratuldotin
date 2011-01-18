@@ -1,16 +1,16 @@
 <?php
 // Copyright (C) 2010 by Pratul Kalia.
-// 
+//
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
 // in the Software without restriction, including without limitation the rights
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-// 
+//
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
-// 
+//
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -46,12 +46,12 @@
           <?php endif; ?>
           <div id="feedyurself"><a href="?q=rss.xml"><img src="<?php print $directory ?>/feed14.png"/></a></div>
         </div>
-        
+
         <?php if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul></div>'; endif; ?>
         <?php if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
         <?php if ($show_messages && $messages): print $messages; endif; ?>
         <?php print $help; ?>
-        
+
         <?php print $content ?>
       </div>  <!-- END centercontent -->
 
@@ -66,11 +66,11 @@
     <div id="footer">
       <?php if ($rfooter): print $rfooter; endif; ?>
       <?php print $footer_message . $footer ?>
+      <div id="gitversion">Version 494e8d.</div>
     </div> <!-- END footer -->
 
-  </div>  
+  </div>
   </div>
   <?php print $closure; // Close my eyes and make sing, ding ding ding. ?>
 </body>
 </html>
-  
