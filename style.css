@@ -28,6 +28,9 @@ THE SOFTWARE.
   font-family: Helvetica, Arial, sans;
   max-width: 960px;
 }
+.nodecontent, .node, .node .links, #comments {
+  background: rgba(255, 255, 255, 0.7);
+}
 a { color: #0066cc; }
 pre {
   font-family: Monaco, Consolas, monospace;
