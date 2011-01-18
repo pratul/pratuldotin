@@ -24,8 +24,9 @@ THE SOFTWARE.
  * Mostly global stuff
  */
 #chhota {
-  margin: 3% 10% 4% 10%;
+  margin: auto;
   font-family: Helvetica, Arial, sans;
+  max-width: 960px;
 }
 a { color: #0066cc; }
 pre {
@@ -107,12 +108,12 @@ input#edit-submit {
   color: #000;
 }
 .nodecontent {
-  font-family: "Helvetica Neue", Candara, Arial, serif;
-  font-size: 14px;
+  font-family: "Myriad Pro", Candara, Arial, serif;
+  font-size: 15px;
   line-height: 1.5;
 }
-.nodecontent em { 
-  background-color: #ffffaa; 
+.nodecontent em {
+  background-color: #ffffaa;
 }
 div.links {
   border-left: 1px solid #999;
@@ -142,7 +143,7 @@ div.item-list {
   padding: 2px;
   font-family: Verdana, Georgia, sans-serif;
   font-size: 16px;
-  
+
 }
 .pager li a {
   text-decoration: none;

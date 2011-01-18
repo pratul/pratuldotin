@@ -30,7 +30,7 @@ if ($comment->uid == 1) {
 
     <div class="clear-block">
     <?php if ($submitted): ?>
-      <div class="submitted">On <a href=""><?php print $date ?></a>, 
+      <div class="submitted">On <?php print $date ?>, 
         <?php if ($comment->homepage): ?>
           <a href="<?php print $comment->homepage ?>">
         <?php endif; ?>
